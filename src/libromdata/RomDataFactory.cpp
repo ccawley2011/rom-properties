@@ -92,6 +92,7 @@ using std::vector;
 
 // RomData subclasses: Other
 #include "Other/Amiibo.hpp"
+#include "Other/Archimedes.hpp"
 #include "Other/ELF.hpp"
 #include "Other/EXE.hpp"
 #include "Other/ISO.hpp"
@@ -279,6 +280,7 @@ const RomDataFactoryPrivate::RomDataFns RomDataFactoryPrivate::romDataFns_magic[
 	GetRomDataFns_addr(VGM, ATTR_HAS_METADATA, 0, 'Vgm '),
 
 	// Other
+	GetRomDataFns_addr(Archimedes, ATTR_NONE, 0, 'JFDI'),
 	GetRomDataFns_addr(ELF, ATTR_NONE, 0, 0x7F454C46),		// '\177ELF'
 
 	// Consoles: Xbox 360 STFS

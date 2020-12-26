@@ -75,6 +75,7 @@ SET(libromdata_SRCS
 	Audio/VGM.cpp
 
 	Other/Amiibo.cpp
+	Other/Archimedes.cpp
 	Other/ELF.cpp
 	Other/EXE.cpp
 	Other/EXE_NE.cpp
@@ -239,6 +240,7 @@ SET(libromdata_H
 	Audio/vgm_structs.h
 
 	Other/Amiibo.hpp
+	Other/Archimedes.hpp
 	Other/ELF.hpp
 	Other/EXE.hpp
 	Other/EXE_p.hpp
@@ -250,6 +252,7 @@ SET(libromdata_H
 	Other/badge_structs.h
 	Other/elf_structs.h
 	Other/exe_structs.h
+	Other/jfd_structs.h
 	Other/macho_structs.h
 	Other/nfp_structs.h
 
